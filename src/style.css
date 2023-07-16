@@ -1,0 +1,78 @@
+.root {
+    /* CSS properties for the root container */
+    -fx-background-color: #131515;
+    -fx-font-family: sans-serif;
+    -fx-border-radius: 50px;
+    -fx-alignment: center;
+}
+
+.cus-label {
+    -fx-text-fill: aliceblue;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 10px 10px 20px;
+    
+}
+
+
+.input-field {
+    -fx-padding: 35px; 
+    -fx-border-insets: 20px;
+    -fx-background-insets: 20px; 
+    -fx-background-color: #1b1f1f;
+    -fx-text-fill: aliceblue;
+    -fx-content-display: top;
+    -fx-border-color: -fx-text-box-border;
+    -fx-border-width: 2;
+    -fx-font-size:15px;
+    -fx-border-radius:25px;
+    -fx-background-radius: 25px;
+}
+
+
+.result-field{
+    -fx-padding: 35px; 
+    -fx-border-insets: 20px;
+    -fx-background-insets: 20px; 
+    -fx-background-color: #1b1f1f;
+    -fx-background-radius: 25px;
+    -fx-text-fill: aliceblue;
+    -fx-content-display: top;
+    -fx-border-color: -fx-text-box-border;
+    -fx-border-width: 2;
+    -fx-font-size:15px;
+    -fx-border-radius:25px;
+    
+}
+
+
+.submit{
+    -fx-padding: 15px; 
+    -fx-background-color: #1b1f1f;
+    -fx-background-radius: 25px;
+    -fx-border-radius:25px;
+    -fx-border-color: rgb(58, 57, 57);
+    -fx-border-width: 2;
+    -fx-text-fill: aliceblue;
+    -fx-font-weight:bold;
+}
+
+.submit:hover{
+    -fx-background-color: aliceblue;
+    -fx-text-fill: #1b1f1f;
+}
+
+
+.options-field{
+    -fx-background-color: #1b1f1f;
+    -fx-background-radius: 25;
+    -fx-border-radius:25px;
+    -fx-border-color: rgb(58, 57, 57);
+    -fx-border-width: 2;
+    -fx-text-fill: aliceblue;
+    -fx-font-weight:bold;
+    -fx-border-insets: 25px;
+    -fx-background-insets: 25px;
+}
+
+
